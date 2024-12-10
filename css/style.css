@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+}
+
+*, *:before, * after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #18b5a4;
+}
+
+.button_1{
+	margin: 50px 0 0 50px;
+	text-decoration: none;
+   display: inline-block;
+   line-height: 60px;
+   padding: 0 30px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 18px;
+   border-radius: 10px;
+   top: 0;
+   position: relative;
+	color: #fff;
+	background-color: #5e5373;
+	box-shadow: 0 5px 0 #3c354a;
+	transition-duration:1s, 100ms, 100ms; 
+	transition-property:background-color, top, box-shadow;
+	transition-delay:0s, 0.5s, 0.5s; 
+
+
+}
+.button_2 {
+  display: block;
+  margin: 50px 0 20px 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: red;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: ease;
+}
+
+.button_3 {
+  display: block;
+  margin: 0 0 20px 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: blue;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: ease-in;
+}
+
+.button_4 {
+  display: block;
+  margin: 0 0 20px 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: green;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: ease-out;
+}
+
+.button_5 {
+  display: block;
+  margin: 0 0 20px 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: yellow;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: ease-in-out;
+}
+
+.button_6 {
+  display: block;
+  margin: 0 0 20px 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: purple;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: linear;
+}
+
+.button_7 {
+  display: block;
+  margin: 0 0 20px 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: orange;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: steps(10, start);
+}
+
+.button_8 {
+  display: block;
+  margin: 0 0 0 50px;
+  min-width: 300px;
+  width: 500px;
+  background-color: grey;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+          transition-duration: 1s;
+          transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.button_1:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0 #3c354a;
+          box-shadow: 0 3px 0 #3c354a;
+  background-color: #18b5a4;
+}
+
+.button_2:hover {
+  width: 1000px;
+}
+
+.button_3:hover {
+  width: 1000px;
+}
+
+.button_4:hover {
+  width: 1000px;
+}
+
+.button_5:hover {
+  width: 1000px;
+}
+
+.button_6:hover {
+  width: 1000px;
+}
+
+.button_7:hover {
+  width: 1000px;
+}
+
+.button_8:hover {
+  width: 1000px;
+}

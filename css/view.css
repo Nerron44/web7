@@ -1,0 +1,16 @@
+.button{
+	transition:all 1s ease 0s ;
+}
+
+
+
+
+
+
+
+
+/*transition-duration: 1s; время анимации
+  transition-property: анимация конкретного элемента;
+  transition-delay:    задержка ;
+  transition-timing-function: стиль перехода;
+  transition: property duration time-function delay;
